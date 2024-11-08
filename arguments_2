@@ -1,0 +1,10 @@
+def cube(number):
+
+    cube = int(input("Enter a no."))
+
+if (cube%==0):
+        print("Divisible by 3")
+        
+    elif:
+        print("Not divisible by 3")
+
