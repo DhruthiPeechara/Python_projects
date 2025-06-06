@@ -8,7 +8,7 @@ def kadane(a):
             max_ending_here = 0
         if max_so_far < max_ending_here:
             max_so_far = max_ending_here
-         return max_so_far
+            return max_so_far
     
 def maxCircularSum(a):
     n = len(a)
@@ -17,7 +17,7 @@ def maxCircularSum(a):
     for i in range(n):
         total_sum += a[i]
         a[i] = -a[i]
-     max_wrap = total_sum + kadane(a)
+         max_wrap = total_sum + kadane(a)
 
     if max_wrap == 0:
         return max_kadane

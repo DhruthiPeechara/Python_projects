@@ -1,0 +1,23 @@
+def equilibriumPoint(arr):
+     leftsidesum = 0 
+     rightsidesum-0
+    n = len(arr)
+
+    # Go to each indx of the array and check if it an equilibrium point
+    for i in range(n):
+    leftsideSum
+    rightsidesum = @
+
+        for j in range(1):
+    leftsidesum += arr[j]
+# get right sum
+            for i in range(i + 1, n):
+            rightsideSum += arr[j]
+            if leftsideSum == rightsideSum: return 1
+    return -1
+
+arr [-4,6,2,0,0,1,1]
+print ("Element", arr[equilibriumPoint(arr)])
+
+
+
