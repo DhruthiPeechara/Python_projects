@@ -1,0 +1,19 @@
+CREATE TABLE  nomone ( 
+    NAME_ID TEXT, 
+    HEALTH GRADE,
+    PRICE TEXT , 
+    PLACE TEXT, 
+    CUSINE TEXT,
+); 
+
+INSERT INTO NOMONE (NAME_ID,HEALTH,PRICE,PLACE,CUSINE) VALUES
+
+    ('BROOKLYN999', 'A', $, 'DCC', 'ITALIAN')
+    '('PERHERO', 'B', $$$$$, 'MOE', 'CHINESE')
+    ('TEXAS', 'A', $$, 'MALL','AMERICAN')
+    ('CANDYLICIOUS', 'A', $$$, 'DCC', 'MEXICAN')
+
+SELECT * FROM nomone CUSINE = 'ITALIAN'
+SELECT * FROM nomone PRICE ='$'
+SELECT * FROM nomone NAME = 'TEXAS'
+SELECT * FROM nomone PLACE = 'MOE''
